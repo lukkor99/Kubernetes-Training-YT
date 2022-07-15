@@ -10,5 +10,9 @@ kubectl get pod # checking all pods in current namespace
 kubectl create deployment ngnix-deployment --image=ngnix # creating a basic deployment named ngnix deployemnt with latest ngnix as a base image
 
 kubectl get deployement # preview of created deployment
+kubectl get pod # get latest pod 
+kubectl get replicaset # get replicaset - management unit of the pod replicas
+
+
 
 exit 0
