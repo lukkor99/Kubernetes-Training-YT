@@ -15,6 +15,6 @@ kubectl get replicaset # get replicaset - management unit of the pod replicas
 
 kubectl edit deployment ngnix-deployment >> scripts/outputs/ngnix-config # edit current deployment configuration in yml file
 
-
+kubectl apply nginix-deployement # applying deployment to go live
 
 exit 0
