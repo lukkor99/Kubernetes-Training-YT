@@ -17,4 +17,5 @@ kubectl edit deployment ngnix-deployment >> scripts/outputs/ngnix-config # edit 
 
 kubectl apply nginix-deployement # applying deployment to go live
 
+
 exit 0
