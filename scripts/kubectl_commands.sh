@@ -13,7 +13,7 @@ kubectl get deployement # preview of created deployment
 kubectl get pod # get latest pod - abstraction of the container
 kubectl get replicaset # get replicaset - management unit of the pod replicas
 
-kubectl edit deployment ngnix-deployment >> scripts/outputs/ngnix-config
+kubectl edit deployment ngnix-deployment >> scripts/outputs/ngnix-config # edit current deployment configuration in yml file
 
 
 
