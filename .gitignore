@@ -1,3 +1,2 @@
 setup/
-tls.key
-tls.crt
+ingress/secrets/

@@ -6,7 +6,7 @@ kubectl get all -n kubernetes-dashboard # list all components within namespace
 
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout tls.key -out tls.crt -subj "/CN=foo.bar.com"
 
-kubectl create secret tls dashboard-tls-secret --key="tls.key" --cert="tls.crt"
+kubectl create secret tls dashboard-tls-secret --key="ingress/secrets/tls.key" --cert="ingress/secrets/tls.crt"
 
 kubectl get secret dashboard-tls-secret -o yaml >> ingress/dashboard-tls-secret.yaml
 
