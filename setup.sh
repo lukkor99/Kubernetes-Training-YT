@@ -14,6 +14,10 @@ apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main" # addi
 
 apt-get install kubeadm kubelet kubectl # install all necessary k8s dependencies
 
+minikube start # start whole minikube 
+
+minikube addons enable ingress
+
 # check version
 
 echo 'Docker version: '
